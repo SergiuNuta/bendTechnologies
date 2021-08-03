@@ -1,0 +1,38 @@
+<div class="wrapper">
+  <h1>Zona 1</h1>
+  <div class="container">
+    <ng-container *ngFor="let newThing of newThings">
+      <div class="box" *ngIf="newThing.areaId == 1791">
+        <p>{{ newThing.sku }}</p>
+        <h2>{{ newThing.defaultSku }}</h2>
+      </div>
+    </ng-container>
+  </div>
+  <h1>Zona 2</h1>
+  <div class="container">
+    <ng-container *ngFor="let newThing of newThings">
+      <div class="box" *ngIf="newThing.areaId == 1892">
+        <p>{{ newThing.sku }}</p>
+        <h2>{{ newThing.defaultSku }}</h2>
+      </div>
+    </ng-container>
+  </div>
+  <h1>Zona 4</h1>
+  <div class="container">
+    <ng-container *ngFor="let newThing of newThings">
+      <div class="box" *ngIf="newThing.areaId == 1900">
+        <p>{{ newThing.sku }}</p>
+        <h2>{{ newThing.defaultSku }}</h2>
+      </div>
+    </ng-container>
+  </div>
+  <h1>Zona 5</h1>
+  <div class="container">
+    <ng-container  *ngFor="let newThing of newThings">
+      <div class="box" *ngIf="newThing.areaId == 1901">
+        <p>{{ newThing.sku }}</p>
+        <h2>{{ newThing.defaultSku }}</h2>
+      </div>
+    </ng-container>
+  </div>
+</div>
