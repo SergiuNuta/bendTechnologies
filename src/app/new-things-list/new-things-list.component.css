@@ -13,6 +13,16 @@ h1 {
   padding-left: 10px;
 }
 
+.red {
+  color: red;
+  background-color: red;
+}
+
+.under {
+  width: 100%;
+  background: red;
+}
+
 h2 {
     text-align: center;
     padding: 10px;
