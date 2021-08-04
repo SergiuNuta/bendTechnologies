@@ -8,14 +8,12 @@ p {
     padding: 10px;
 }
 
-h1 {
-  padding-top: 40px;
-  padding-left: 10px;
+h1 { 
+  padding: 40px 0 10px 10px;
 }
 
 h2 {
   text-align: center;
-  /* padding: 10px; */
 }
 
 .red {
@@ -27,16 +25,22 @@ h2 {
 .sideLine {
   position: absolute;
   margin-top: 10px;
-  background: chocolate;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   width: 10px;
   height: 80px;
 }
 
-.under {
-  width: 100%;
-  background: red;
+.orange {
+  background: #ff9800;
+}
+
+.yellow {
+  background: #f4e700;
+}
+
+.bloodOrange {
+  background: #f64d25;
 }
 
 .box { 
@@ -46,14 +50,4 @@ h2 {
   width: 200px;
   height: 100px;
 }
-
-/* .box div:first-child {
-  position: relative;
-  margin-top: 10px;
-  background: red;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 10px;
-  height: 80px;
-} */
 
