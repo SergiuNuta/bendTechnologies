@@ -22,9 +22,9 @@
           <h2>{{ newThing.defaultSku }}</h2>
       </div>
       </ng-container>
-      <ng-container *ngFor="let newThing of newThings; let i = index">
+      <ng-container *ngFor="let newThing of newThings.slice().reverse(); let i = index">
         <div class="box" *ngIf="newThing.areaId == 1791 && newThing.id == 2974 || newThing.joinedWith == 2974">
-            <div [ngClass]="{ 'sideLine yellow' : i == 5 }"></div> 
+            <div [ngClass]="{ 'sideLine yellow' : i == 11 }"></div> 
           <p>{{ newThing.sku }}</p>
           <h2>{{ newThing.defaultSku }}</h2>
       </div>
@@ -78,9 +78,9 @@
 
   <h1>Zona 5</h1>
   <div class="container">
-    <ng-container  *ngFor="let newThing of newThings; let i = index">
+    <ng-container  *ngFor="let newThing of newThings.slice().reverse(); let i = index">
       <div class="box" *ngIf="newThing.areaId == 1901 && newThing.id == 3014 || newThing.joinedWith == 3014">
-        <div [ngClass]="{ 'sideLine yellow' : i == 18 }"></div>
+        <div [ngClass]="{ 'sideLine yellow' : i == 0 }"></div>
         <p>{{ newThing.sku }}</p>
         <h2>{{ newThing.defaultSku }}</h2>
       </div>
