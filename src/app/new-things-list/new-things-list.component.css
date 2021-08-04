@@ -13,9 +13,25 @@ h1 {
   padding-left: 10px;
 }
 
+h2 {
+  text-align: center;
+  /* padding: 10px; */
+}
+
 .red {
+  display: flex;
+  justify-content: space-between;
   color: red;
-  background-color: red;
+}
+
+.sideLine {
+  position: absolute;
+  margin-top: 10px;
+  background: chocolate;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 10px;
+  height: 80px;
 }
 
 .under {
@@ -23,15 +39,21 @@ h1 {
   background: red;
 }
 
-h2 {
-    text-align: center;
-    padding: 10px;
-}
-
-.box {   
-  margin: 10px;
+.box { 
+  margin: 8px;
   border-radius: 5px;
   background-color: #2b4e87;
   width: 200px;
   height: 100px;
 }
+
+/* .box div:first-child {
+  position: relative;
+  margin-top: 10px;
+  background: red;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 10px;
+  height: 80px;
+} */
+
