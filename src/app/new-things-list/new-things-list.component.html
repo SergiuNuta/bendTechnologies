@@ -7,6 +7,7 @@
         <p>{{ newThing.sku }}</p>
         <h2>{{ newThing.defaultSku }}</h2>
       </div>
+      <div class="joiner"></div>
     </ng-container>
     <ng-container *ngFor="let newThing of newThings; let i = index">
       <div class="box" *ngIf="newThing.areaId == 1791 && newThing.id == 2971 || newThing.joinedWith == 2971"> 
@@ -57,10 +58,8 @@
     <ng-container *ngFor="let newThing of newThings; let i = index">
       <div class="box" *ngIf="newThing.areaId == 1892 && newThing.id == 2966 || newThing.joinedWith == 2966">
           <div [ngClass]="{ 'sideLine yellow' : i == 14 }"></div>
-          <!-- <div> -->
         <p>{{ newThing.sku }}</p>
         <h2>{{ newThing.defaultSku }}</h2>
-    <!-- </div> -->
     </div>
     </ng-container>
   </div>
@@ -73,6 +72,7 @@
         <p>{{ newThing.sku }}</p>
         <h2>{{ newThing.defaultSku }}</h2>
       </div>
+      <div class="joiner"></div>
     </ng-container>
   </div>
 
@@ -84,6 +84,7 @@
         <p>{{ newThing.sku }}</p>
         <h2>{{ newThing.defaultSku }}</h2>
       </div>
+      <div class="joiner"></div>
     </ng-container>
   </div>
 </div>
